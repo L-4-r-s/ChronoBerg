@@ -7,7 +7,7 @@
 - **Chapter 3**
 - **Files**:
   - **Hate Analysis/**
-    - `[analyze_chronoberg_with_fb_roberta_hs_model.py](Constructing a Chronological Dataset from 250 Years of Literature/Hate Analysis/analyze_chronoberg_with_fb_roberta_hs_model.py)`: Analyze dataset for hateful sentences using [Facebook RoBERTa Hate Speech model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target)
+    - `[analyze_chronoberg_with_fb_roberta_hs_model.py](/Constructing a Chronological Dataset from 250 Years of Literature/Hate Analysis/analyze_chronoberg_with_fb_roberta_hs_model.py)`: Analyze dataset for hateful sentences using [Facebook RoBERTa Hate Speech model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target)
     - `analyze_chronoberg_with_perspective_api.ipynb`: Analyze a set of potentially hateful sentences using [Perspective API](https://perspectiveapi.com/). Also includes the construction of sets of hateful sentences for different thresholds and the sampling of 100 random sentences as discussed in the paper.
     - `requirements_fb_roberta_analysis.txt`: libraries required to run analyze_chronoberg_with_fb_roberta_hs_model.py 
   - `Build extended PG catalogue.ipynb`: Jupyter notebook to build an extended Project Gutenberg catalogue given the book's rdf files have been downloaded from a [mirror](https://www.gutenberg.org/MIRRORS.ALL)
