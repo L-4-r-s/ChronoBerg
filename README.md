@@ -3,10 +3,10 @@
 
 ## File and Directory Descriptions
 
-### **[`Constructing a Chronological Dataset from 250 Years of Literature/`](Constructing%20a%20Chronological%20Dataset%20from%20250%20Years%20of%20Literature/)**
+### **`Constructing a Chronological Dataset from 250 Years of Literature/`**
 - **Chapter 3**
 - **Files**:
-  - **[`Hate Analysis/`](Constructing%20a%20Chronological%20Dataset%20from%20250%20Years%20of%20Literature/Hate%20Analysis/)**
+  - **`Hate Analysis/`**
     - [`analyze_chronoberg_with_fb_roberta_hs_model.py`](Constructing%20a%20Chronological%20Dataset%20from%20250%20Years%20of%20Literature/Hate%20Analysis/analyze_chronoberg_with_fb_roberta_hs_model.py): Analyze dataset for hateful sentences using [Facebook RoBERTa Hate Speech model](https://huggingface.co/facebook/roberta-hate-speech-dynabench-r4-target)
     - [`analyze_chronoberg_with_perspective_api.ipynb`](Constructing%20a%20Chronological%20Dataset%20from%20250%20Years%20of%20Literature/Hate%20Analysis/analyze_chronoberg_with_perspective_api.ipynb): Analyze a set of potentially hateful sentences using [Perspective API](https://perspectiveapi.com/). Also includes the construction of sets of hateful sentences for different thresholds and the sampling of 100 random sentences as discussed in the paper.
     - [`requirements_fb_roberta_analysis.txt`](Constructing%20a%20Chronological%20Dataset%20from%20250%20Years%20of%20Literature/Hate%20Analysis/requirements_fb_roberta_analysis.txt): Libraries required to run `analyze_chronoberg_with_fb_roberta_hs_model.py`
@@ -18,12 +18,12 @@
   - [`build_retain_sets.ipynb`](Constructing%20a%20Chronological%20Dataset%20from%20250%20Years%20of%20Literature/build_retain_sets.ipynb): Jupyter notebook for building a retain set given the dataset and a forget set (set of hateful sentences)
   - [`word analyses.ipynb`](Constructing%20a%20Chronological%20Dataset%20from%20250%20Years%20of%20Literature/word%20analyses.ipynb): Jupyter notebook to conduct analyses on the ChronoBerg dataset regarding word frequencies
 
-### **[`Evaluating Models for Hate Speech Detection/`](Evaluating%20Models%20for%20Hate%20Speech%20Detection/)**
+### **`Evaluating Models for Hate Speech Detection/`**
 - **Chapter 2**
 - **Files**:
   - [`Evaluate_different_HS_models.ipynb`](Evaluating%20Models%20for%20Hate%20Speech%20Detection/Evaluate_different_HS_models.ipynb): Jupyter notebook for testing nine popular hate speech detection models on the [HateCheck benchmark](https://github.com/paul-rottger/hatecheck-data) 
 
-### **[`Unlearning Hateful Content from ChronoBerg/`](Unlearning%20Hateful%20Content%20from%20ChronoBerg/)**
+### **`Unlearning Hateful Content from ChronoBerg/`**
 - **Chapter 4**
 - **Files**:
   - [`LLM_hate_test.ipynb`](Unlearning%20Hateful%20Content%20from%20ChronoBerg/LLM_hate_test.ipynb): Jupyter notebook for testing hate in query completion of Llama, Llama Chronoberg, Llama Instruct, and Aurora-M
