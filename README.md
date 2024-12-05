@@ -21,7 +21,7 @@
 ### **`Evaluating Models for Hate Speech Detection/`**
 - **Chapter 2**
 - **Files**:
-  - `Evaluate_different_HS_models.ipynb`: Jupyter notebook for testing nine popular hate speech detection models on the [HateCheck benchmark}(https://github.com/paul-rottger/hatecheck-data) 
+  - `Evaluate_different_HS_models.ipynb`: Jupyter notebook for testing nine popular hate speech detection models on the [HateCheck benchmark](https://github.com/paul-rottger/hatecheck-data) 
 
 ### **`Unlearning Hateful Content from ChronoBerg/`**
 - **Chapter 4**
